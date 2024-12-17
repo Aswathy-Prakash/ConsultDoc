@@ -1,0 +1,27 @@
+/* styles.css */
+
+:root {
+  --primary-color: #008080; /* Teal color */
+  --primary-light: #4db6ac; /* Lighter shade of teal */
+  --primary-dark: #004d40; /* Darker shade of teal */
+}
+
+/* Table Header */
+.MuiTableHead-root {
+  background-color: #008080;
+}
+
+/* Table Row Hover Effect */
+.MuiTableRow-root:hover {
+  background-color: var(--primary-light);
+}
+
+/* Buttons */
+.MuiButton-contained {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.MuiButton-contained:hover {
+  background-color: var(--primary-dark);
+}
